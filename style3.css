@@ -379,45 +379,41 @@ width: 450px;
 footer{
   width: 100%;
   margin: 0;
+  height: 300px;
 }
 .footer-first{
   width:260px
 }
-.footer img{
-  
+footer img{
   width: 225px;
   margin-left: 230px;
   margin-top: 100px;
 }
 .footer-icons {
-
-margin-top: 50px;
+display: flex;
+margin-top: 40px;
 margin-left: 275px;
 }
 .footer-icons a{
   padding-right: 25px;
   font-size: 30px;
-  color:black ;
+  color:black;
 }
 .footer-last{
-  display:flex;
-  width: 805;
-}
-
-.footer-last a{
-
- text-decoration: none;
- color: black;
-  font-weight: bold;
-  margin-left: 70px;
-  margin-top: 135px;
- width: 105px;
- 
-}
-.footer>div{
   display: flex;
+  margin-left: 555px;
+  margin-top: -150px
 }
-
-
-
-
+.footer-last-1{
+  display: flex;
+  flex-direction: column;
+}
+.footer-last div{
+  padding-left: 100px;
+}
+.footer-last a{
+  text-decoration: none;
+  color: black;
+  padding-top: 5px;
+  font-size: 15px;
+}
