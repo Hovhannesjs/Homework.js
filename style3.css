@@ -404,7 +404,7 @@ margin-left: 275px;
   width: 805;
 }
 
-.footer-last>a{
+.footer-last a{
 
  text-decoration: none;
  color: black;
@@ -417,10 +417,7 @@ margin-left: 275px;
 .footer>div{
   display: flex;
 }
-.footer-last-2 a{
-   display: block;
-   font-weight: 0;
-}
+
 
 
 
